@@ -1,15 +1,15 @@
 # ProjectIQ: Automated Documentation Generation with Azure OpenAI and Microsoft Fabric
 ## Introduction
-Documentation is one of the most important but often tedious and time-consuming tasks. What if we could leverage Generative AI to simplify the process? ProjectIQ is an innovative solution aimed at automating documentation by utilizing metadata from work items, tickets, bugs, and wikis to generate concise and relevant summaries for topics you're interested in. This project was made possible thanks to Microsoft Fabric and Azure OpenAI, which provided the tools to build a proof of concept (PoC).
+Documentation is one of the most important but often tedious and time-consuming tasks. What if we could leverage Generative AI to simplify the process? ProjectIQ is an idea aimed at automating documentation by utilizing metadata from work items, tickets, bugs, and wikis to generate concise and relevant summaries for topics you're interested in. This project was made possible thanks to Microsoft Fabric and Azure OpenAI, which provided the tools to build a proof of concept (PoC).
 
 ## Overview
 ProjectIQ uses Microsoft Fabric as the backbone for data storage and processing, and Azure OpenAI to analyze metadata and produce intelligent summaries. By integrating various work item types from Azure DevOps, such as tasks, bugs, and documentation, ProjectIQ can generate quick, meaningful summaries in a matter of seconds, saving hours of manual work.
 
 ## Key Features
-**Automated Summaries**: The system uses metadata from Azure DevOps and generates documentation based on user queries.
-**Seamless Integration with Microsoft Fabric**: ProjectIQ integrates with Microsoft Fabric's lakehouse to store and process data efficiently.
-**Azure OpenAI Integration**: Utilizes OpenAI’s generative models to understand work items and summarize documentation.
-**Fast and Scalable**: Generate insights in seconds, even for large projects.
+- **Automated Summaries**: The system uses metadata from Azure DevOps and generates documentation based on user queries.
+- **Seamless Integration with Microsoft Fabric**: ProjectIQ integrates with Microsoft Fabric's lakehouse to store and process data efficiently.
+- **Azure OpenAI Integration**: Utilizes OpenAI’s generative models to understand work items and summarize documentation.
+- **Fast and Scalable**: Generate insights in seconds, even for large projects.
 
 ## Files in this Project
 **00-Libraries.ipynb**
